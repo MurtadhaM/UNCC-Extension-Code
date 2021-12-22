@@ -1,0 +1,65 @@
+/*
+@Author: Murtadha Marzouq
+@Project: To enhance the UNCC self service banner with new CSS 
+@version: 1.0
+
+
+My.charlotte.edu or 49erxpress  
+*/
+
+
+
+/*
+This is for the body of the page
+*/
+.headerwrapperdiv,
+body {
+	color: #ddc239 !important;
+	background-color: #282a36 !important;
+	border-color: transparent;
+}
+
+/*
+This is for the link of the page
+*/
+.row {
+	color: #ddc239 !important;
+	background-color: #282a36 !important;
+	border-color: transparent;
+}
+
+/*
+
+This is for the multi linked list
+*/
+.zebra-stripes {
+
+
+	color: #ddc239 !important;
+	background-color: #282a40 !important;
+	border-width: 2px;
+	border: 3px;
+	border-color: red !important;
+	box-shadow: 0 2px 11px rgba(0, 0, 0, .3);
+}
+
+
+/*
+
+This is for the Subheaders 
+*/
+
+.text-uppercase {
+	color: #b87f00 !important;
+	font-size-adjust: .7;
+}
+
+/*
+
+To fix the announcement bar
+*/
+.announcement-subject-wrapper, #main-container a{
+		color: #03a6c9 !important;
+	font-size-adjust: .7;
+
+}

@@ -1,0 +1,49 @@
+/*
+@Author: Murtadha Marzouq
+@Project: To enhance the UNCC self service banner with new CSS 
+@version: 1.0
+
+
+Self Service Banner 
+*/
+
+
+* {
+	color: #ddc239 !important;
+}
+.headerwrapperdiv,
+body {
+	color: #ddc239 !important;
+	background-color: #282a36 !important;
+	border-color: transparent;
+}
+
+
+
+
+.pagebodydiv {
+	height: 100%;
+}
+
+
+.mpdefault a {
+	color: #03a6c9 !important;
+}
+
+TABLE TH.ddheader {
+	background-color: #d2ebf1 !important;
+	color: red !important;
+}
+input {
+	background-color: red;
+}
+
+
+/* Drop Down menues
+
+*/
+select,
+option {
+	color: #282a36 !important;
+	background: #ddc239 !important;
+}
