@@ -19,7 +19,7 @@
 
 ## Background
 
-### I chose this project because I wanted to leave UNCC with a project I worked on to share with other student to make 49er portal more asthetically pleasing. 
+##### I chose this project because I wanted to leave UNCC with a project I worked on to share with other student to make 49er portal more asthetically pleasing. 
 
 
 

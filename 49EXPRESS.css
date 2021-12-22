@@ -18,8 +18,37 @@ body {
 	background-color: #282a36 !important;
 	border-color: transparent;
 }
+.pagebodydiv {
+	height: 100%;
+}
 
-/*
+span {
+	color: #ddc239 !important;
+}
+
+.panel-panel.row_2_left.col-sm-6, .panel-panel row_2_left col-sm-6 , .panel-panel.row_2_right.col-sm-6{
+	background-color: #282a36 !important;
+	color: #ddc239 !important;
+}
+.submenulinktext2 {
+	color: #ddc239 !important;
+}
+.mpdefault a , .mpdefault {
+	color: #03a6c9 !important;
+}
+select,
+option {
+	color: #282a36 !important;
+	background: #ddc239 !important;
+}
+TABLE TH.ddheader {
+	background-color: #d2ebf1 !important;
+	color: red !important;
+}
+input {
+	background-color: red;
+}
+
 This is for the link of the page
 */
 .row {
@@ -62,4 +91,11 @@ To fix the announcement bar
 		color: #03a6c9 !important;
 	font-size-adjust: .7;
 
+}
+
+
+
+
+a, td ,tr , span , input , select , option , textarea {
+	color: #ddc239 !important;
 }
