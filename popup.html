@@ -2,17 +2,20 @@
 <html lang="en">
 
 
-  <head>
+<head>
     <link rel="stylesheet" href="button.css">
     <title> Options</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1" >
-            <meta charset="utf-8">
-  </head>
-  <body>
-    <div id="popup">
-    <label for="state" id="stateLabel">State:</label>
-    <input type="checkbox" title="Active"  id="state">
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <script src="popup.js"></script>
-  </body>
+    
+
+</head>
+
+<body>
+    <div id="popup">
+        <input type="checkbox" data-toggle="toggle" title="state" id="toggle" data-on="Enabled" data-off="Not Enabled" data-onstyle="success" data-offstyle="danger">
+    </div>
+</body>
+
 </html>
