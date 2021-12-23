@@ -28,7 +28,7 @@
 | Browser    | Link                                                                                           |
 |:----------|:--------------------------------------------------------------------------------------------------|
 | **Chrome**  |  <a href="https://chrome.google.com/webstore/category/extensions"> Chrome Web Store </a> |
-| **Firefox**  | <a href="https://chrome.google.com/webstore/category/extensions"> Firefox Extension Store </a>   |
+| **Firefox**  | <a href="https://addons.mozilla.org/en-US/firefox/addon/niner-portal-theme/"> Firefox Extension Store </a>   |
 | **Netscape** | <a href="https://i.imgflip.com/12kxne.jpg"> It is a Surprise </a> |
 
 

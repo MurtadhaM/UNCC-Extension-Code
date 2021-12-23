@@ -9,7 +9,7 @@ Self Service Banner
 
 * {
     color: #ddc239 !important;
-	font-size: 1.03em;
+    font-size: 1.03em;
 }
 
 .headerwrapperdiv,
@@ -48,9 +48,26 @@ input[type="reset"] {
     white-space: nowrap;
 }
 
+.datadisplaytable {
+    background-color: none !important;
+}
+
+.datadisplaytable td:nth-child(2),
+.datadisplaytable td:nth-child(1) {
+    color: #0098a3 !important;
+    /* background-color: #ddc239 !important; */
+    text-align: center;
+}
+
+td.dddefault a,
+.datadisplaytable td:nth-child(1) {
+    color: #04c742 !important;
+    text-decoration: underline;
+}
+
 .dddefault a,
 .rightaligntext {
-    color: #00af09 !important;
+    color: #0098a3 !important;
     font-weight: bold;
 }
 
@@ -65,7 +82,6 @@ th,
 .pagebodydiv .datadisplaytable tr,
 .datadisplaytable td,
 .dddefault abbr {
-    background-color: #ddc239 !important;
     color: #03a6c9 !important;
 }
 
@@ -92,7 +108,7 @@ acronym {
 
 .pagebodydiv {
     height: 100%;
-	background-color: #282a36 !important;
+    background-color: #282a36 !important;
 }
 
 .mpdefault a,
@@ -112,6 +128,8 @@ TABLE TH.ddheader {
 
 select,
 option {
-    color: #282a36 !important;
+    color: #03a6c9 !important;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     background: #ddc239 !important;
 }
