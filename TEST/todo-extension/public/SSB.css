@@ -1,0 +1,135 @@
+/*
+@Author: Murtadha Marzouq
+@Project: To enhance the UNCC self service banner with new CSS 
+@version: 1.0
+
+
+Self Service Banner 
+*/
+
+* {
+    color: #ddc239 !important;
+    font-size: 1.03em;
+}
+
+.headerwrapperdiv,
+body {
+    color: #ddc239 !important;
+    background-color: #282a36 !important;
+    border-color: transparent;
+}
+
+
+/*
+FOR BUTTONS
+*/
+
+input[type="submit"],
+input[type="reset"] {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.datadisplaytable {
+    background-color: none !important;
+}
+
+.datadisplaytable td:nth-child(2),
+.datadisplaytable td:nth-child(1) {
+    color: #0098a3 !important;
+    /* background-color: #ddc239 !important; */
+    text-align: center;
+}
+
+td.dddefault a,
+.datadisplaytable td:nth-child(1) {
+    color: #04c742 !important;
+    text-decoration: underline;
+}
+
+.dddefault a,
+.rightaligntext {
+    color: #0098a3 !important;
+    font-weight: bold;
+}
+
+.ddheader,
+abbr,
+th,
+.errortext {
+    color: #ee0e0e !important;
+    border-color: transparent;
+}
+
+.pagebodydiv .datadisplaytable tr,
+.datadisplaytable td,
+.dddefault abbr {
+    color: #03a6c9 !important;
+}
+
+input[type="text"] {
+    background-color: #2ea44f;
+    width: 100%;
+    border-color: #ffffff;
+    color: #fff !important;
+}
+
+.detitle,
+acronym {
+    background-color: #ddc239 !important;
+    text-align: center;
+    color: #0098a3 !important;
+}
+
+.ddtitle,
+.leftaligntext {
+    background-color: #03a6c9 !important;
+    color: #00a300 !important;
+    text-align: center;
+}
+
+.pagebodydiv {
+    height: 100%;
+    background-color: #282a36 !important;
+}
+
+.mpdefault a,
+.whitespacelink {
+    color: #03a6c9 !important;
+}
+
+TABLE TH.ddheader {
+    background-color: #d2ebf1 !important;
+    color: red !important;
+}
+
+
+/* Drop Down menues
+
+*/
+
+select,
+option {
+    color: #03a6c9 !important;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    background: #ddc239 !important;
+}

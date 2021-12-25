@@ -1,0 +1,56 @@
+{  "name": "Niner Portal Theme",
+  "description": "Changes some visual elements and enhances the experience through CSS only!",
+  "version": "2.0.0",
+
+  "manifest_version": 3,
+  "short_name": "Niner Portal",
+ 
+  "background.service_worker": {
+    "scripts": ["background.bundle.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://my.charlotte.edu/*",
+      "https://my.uncc.edu/*",
+      "https://selfservice.uncc.edu/*",
+      "https://selfservice.charlotte.edu/*"],
+      "js": ["contentScript.bundle.js"]
+    }
+  ],
+   
+
+  "icons": {
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  
+  
+  "action": {
+    "default_popup": "popup.html" 
+
+    
+  },
+  "options_page": "options.html",
+  "permissions": [ "activeTab", "storage", "tabs"]
+  , 
+  
+  
+    
+    "web_accessible_resources": [
+      {
+        "resources": [ "styles/SSB.css", "styles/49EXPRESS.css" ],
+        "matches": [ "https://my.charlotte.edu/*","https://my.uncc.edu/*","https://selfservice.uncc.edu/*","https://selfservice.charlotte.edu/*" ]
+      }, {
+        "resources": [ "styles/SSB.css", "styles/49EXPRESS.css" ],
+        
+        "matches": [ "https://my.charlotte.edu/*","https://my.uncc.edu/*","https://selfservice.uncc.edu/*","https://selfservice.charlotte.edu/*" ]
+      }
+    ]
+  
+  
+
+
+}
+
