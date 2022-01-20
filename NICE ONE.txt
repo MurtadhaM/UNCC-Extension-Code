@@ -1,0 +1,1736 @@
+.centeraligntext {
+text-align: center;
+}
+
+.leftaligntext {
+text-align: left;
+}
+
+.rightaligntext {
+text-align: right;
+}
+
+.menulisttext {
+list-style: none;
+}
+
+.captiontext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: italic;
+text-align: left;
+margin-top: 1em;
+}
+
+.skiplinks {
+display: none;
+}
+
+.pageheaderlinks {
+color: #FFFFFF;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: center;
+}
+/*
+GEPC
+Se cambio el color "black" por el color "red"
+*/
+.requirementnotmet {
+color: red;
+}
+
+/* Class for Sub-menu Items                                  */
+/* ========================================================  */
+.pageheaderlinks2 {
+color: #CED5EA;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-size: 90%;
+text-align: justify;
+}
+
+.pagebodylinks {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: center;
+}
+
+.gotoanchorlinks {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.pagefooterlinks {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: center;
+/* BROWSER CONSIDERATION - To make Netscape and IE compatible for PageFooter Division. */
+/* Margin-left style specified for Netscape within parent SPAN tag,                    */
+/* while IE uses the padding-left style within parent DIV tag.                         */
+margin-left: 3px;
+}
+
+.backlinktext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: right;
+margin-bottom: 5px;
+}
+
+.menuheadertext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+text-align: left;
+}
+
+.menulinktext {
+color: #0F2167;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-style: normal;
+}
+
+.menulinkdesctext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.normaltext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.infotext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.errortext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.warningtext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.multipagemsgtext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.releasetext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+text-transform: uppercase;
+}
+
+.requiredmsgtext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldlabeltext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldlabeltextinvisible {
+display: none;
+}
+
+.fieldrequiredtext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldformattext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldformatboldtext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fielderrortext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldsmallboldtext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldsmalltext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldmediumtext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldlargetext {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 110%;
+font-style: normal;
+text-align: left;
+}
+
+.fieldmediumtextbold {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+/*
+GEPC
+Cambiar "color:#FFA500;" por "color:#FFA500;"
+*/
+.fieldOrangetextbold {
+color:#7F4B02;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+
+
+/* ANCHORS (LINKS)                                          */
+/* ======================================================== */
+/*GEPC
+FCB656 ROJO
+7F4B02 AZUL
+*/
+A:link{
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A:visited{
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A:active{
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A:hover{
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+color:#FCB656;
+font-weight: bold;
+text-decoration:underline;
+}
+
+A:visited:hover{
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+color:#FCB656;
+font-weight: bold;
+text-decoration:underline;
+}
+
+/* ANCHOR Definitions for Home Page MenuItems class.        */
+/* ======================================================== */
+/*
+GEPC
+FCB656 ROJO
+7F4B02 AZUL
+menulinktext
+*/
+A.menulinktext:link {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style:  normal;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A.menulinktext:active {
+font-family:  Verdana, Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.menulinktext:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+A.menulinktext:visited {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.menulinktext:visited:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+/*
+GEPC
+FCB656 ROJO
+7F4B02 AZUL
+submenulinktext
+*/
+A.submenulinktext:link {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style:  normal;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A.submenulinktext:active {
+font-family:  Verdana, Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.submenulinktext:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+A.submenulinktext:visited {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.submenulinktext:visited:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+/*
+GEPC
+FCB656 ROJO
+7F4B02 AZUL
+*/
+A.submenulinktext2:link {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style:  normal;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A.submenulinktext2:active {
+font-family:  Verdana, Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.submenulinktext2:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+A.submenulinktext2:visited {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.submenulinktext2:visited:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+/*
+GEPC
+FCB656 ROJO
+7F4B02 AZUL
+sitemaplevel1
+*/
+A.sitemaplevel1:link {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style:  normal;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A.sitemaplevel1:active {
+font-family:  Verdana, Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.sitemaplevel1:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+A.sitemaplevel1:visited {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.sitemaplevel1:visited:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+/*
+GEPC
+FCB656 ROJO
+7F4B02 AZUL
+sitemaplevel2
+*/
+A.sitemaplevel2:link {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style:  normal;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A.sitemaplevel2:active {
+font-family:  Verdana, Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.sitemaplevel2:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+A.sitemaplevel2:visited {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.sitemaplevel2:visited:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+/*
+GEPC
+FCB656 ROJO
+7F4B02 AZUL
+sitemaplevel3
+*/
+A.sitemaplevel3:link {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style:  normal;
+color:#7F4B02;
+text-decoration:none;
+}
+
+A.sitemaplevel3:active {
+font-family:  Verdana, Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.sitemaplevel3:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+A.sitemaplevel3:visited {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: normal;
+font-size: 100%;
+font-style: normal;
+color:#7F4B02;
+text-decoration: none;
+}
+
+A.sitemaplevel3:visited:hover {
+font-family: Verdana,Arial Narrow, helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+color:#FCB656;
+text-decoration:underline;
+}
+
+/* ANCHOR Definitions for Home Page MenuItems class.        */
+/* ======================================================== */
+
+A.whitespacelink
+{
+line-height: 0%;
+COLOR: #ffffff;
+text-decoration: none;
+}
+ 
+A.largelinktext {
+font-family: Verdana,Arial,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 100%;
+font-style: normal;
+text-align: left;
+text-decoration: none;
+}
+
+.whitespace1{
+padding-top:0em;
+}
+
+.whitespace2{
+padding-top:1em;
+}
+.whitespace3{
+padding-top:2em;
+}
+.whitespace4{
+padding-top:3em;
+}
+
+/* BODY                                                     */
+/* ======================================================== */
+BODY {
+background-color: #FFFFFF;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-style: normal;
+text-align: left;
+/* BROWSER CONSIDERATION - Override browser settings for BODY margin */
+margin-top: 0px;
+margin-left: 1%;
+margin-right: 2%;
+background-image: url("../wtlgifs/BannerRUA.jpg");
+background-repeat: no-repeat;
+}
+BODY.campuspipeline {
+background-color: #FFFFFF;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-style: normal;
+text-align: left;
+/* BROWSER CONSIDERATION - Override browser settings for BODY margin */
+margin-top: 6px;
+margin-left: 2%;
+background-image: none;
+background-repeat: no-repeat;
+}
+BODY.previewbody {
+background-color: #FFFFFF;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+margin-left: 2%;
+margin-right: 2%;
+
+/* Override the background image in the main BODY */
+background-image: none;
+}
+
+BODY.validationbody {
+background-color: #FFFFFF;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+margin-left: 0%;
+margin-right: 2%;
+/* Override the background image in the main BODY */
+background-image: none;
+}
+
+/* DIVIDES                                                  */
+/* All divides should have rules defined for margin and     */
+/* text-align.                                              */
+/* ======================================================== */
+DIV.menulistdiv {
+text-align: left;
+}
+
+DIV.headerwrapperdiv {
+
+margin-left: 0px;
+margin-top: 0px;
+}
+
+DIV.pageheaderdiv1 {
+
+text-align: left;
+margin-top: 8%;
+margin-left: 0px;
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+
+}
+
+DIV.pageheaderdiv2 {
+text-align: right;
+margin-top: 10px;
+margin-right: 10px;
+position: absolute;
+top: 0px;
+right: 0px;
+float: right;
+display: none;
+
+}
+
+DIV.headerlinksdiv {
+text-align: left;
+margin-right: 0%;
+
+}
+
+/* Class for BANNER SEARCH Form text and button controls     */
+/* ========================================================  */
+DIV.headerlinksdiv2 {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+text-transform: none;
+}
+
+DIV.bodylinksdiv {
+text-align: center;
+margin-top: 1%;
+}
+
+DIV.footerlinksdiv {
+text-align: center;
+}
+
+DIV.backlinkdiv {
+text-align: right;
+margin-top: -40px;
+}
+
+DIV.pagetitlediv {
+text-align: left;
+}
+
+DIV.infotextdiv {
+text-align: left;
+}
+
+DIV.pagebodydiv {
+text-align: left;
+}
+
+DIV.pagefooterdiv {
+text-align: left;
+border: 0px;
+margin-top: 0px;
+float: left;
+}
+
+DIV.poweredbydiv {
+text-align: right;
+margin-right: -1px;
+margin-top: 0px;
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+float: right;
+}
+
+DIV.previewdiv {
+text-align: center;
+}
+
+DIV.validationdiv {
+text-align: center;
+}
+
+DIV.staticheaders {
+text-align: right;
+font-size:  90%;
+}
+/* HEADERS                                                  */
+/* Do not set font-size for headers - defer to browser.      */
+/* ======================================================== */
+/* H1 is reserved for Page Header */
+H1 {
+color: #FFFFFF;
+font-family: verdana, Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-style: normal;
+font-size:0%;
+margin-top: 0px;
+}
+
+
+/* H2 is reserved for Page Title */
+H2 {
+color	   : BLACK;
+font-family: verdana, Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-style : normal;
+}
+
+/* H3 is reserved for Sub Title */
+H3 {
+color	   : BLACK;
+font-family: verdana, Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-style : normal;
+}
+
+/* Horizontal Rule for Menu Section                         */
+/* ======================================================== */
+/*
+GEPC
+Se cambia "color: #CCCC33;" por color: #FCB656;
+*/
+HR {
+color: #FCB656;
+text-align: left;
+vertical-align: top;
+margin-top: -10px;
+}
+/*
+GEPC
+Se cambia "color: #003366;" por color: #7F4B02;
+*/
+HR.pageseprator {
+color: #7F4B02;
+text-align: left;
+vertical-align: top;
+}
+
+
+/* FORM CONTROLS                                            */
+/* ======================================================== */
+INPUT {
+/*background-color: #FFFFFF;*/
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+}
+
+
+TEXTAREA {
+/*background-color: #FFFFFF;*/
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+
+}
+
+SELECT {
+/*background-color: #FFFFFF;*/
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+}
+
+
+
+/* TABLES                                                   */
+/* ======================================================== */
+TABLE.dataentrytable {
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+}
+
+TABLE.datadisplaytable {
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+}
+
+TABLE.plaintable {
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+}
+
+TABLE.menuplaintable {
+/* Create a horizontal rule effect. 
+border-top: 1pt #707070 solid;*/
+}
+
+TABLE.pageheadertable {
+margin-top: 0px;
+}
+
+TABLE.colorsampletable {
+background-color: #FFFFFF;
+}
+
+TABLE.bordertable {
+border-collapse:collapse;
+border-bottom: 1px solid;
+border-left: 1px solid;
+border-right: 1px solid;
+border-top: 1px solid;
+}
+
+/* TABLE HEADERS AND DATA CELLS                             */
+/* ======================================================== */
+TABLE TH {
+vertical-align: top;
+}
+
+TABLE TD {
+vertical-align: top;
+}
+
+.pageheadertablecell {
+text-align: left;
+}
+
+.pageheadernavlinkstablecell {
+text-align: right;
+}
+
+/* DATA ENTRY TABLE HEADERS AND DATA CELLS                  */
+/* Some font rules are redunant because they do not         */
+/* inherit well from the BODY on older browsers.            */
+/* ======================================================== */
+/*
+GEPC
+Se cambio el color "background-color: #E3E5EE;" por "background-color: #B1C9Ef;"
+*/
+TABLE TD.deheader {
+background-color: #FCB656;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+/*
+GEPC
+Se cambio el color "background-color: #E3E5EE;" por "background-color: #B1C9Ef;"
+*/
+TABLE TH.deheader {
+background-color: #FCB656;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.detitle {
+background-color: #DD881B;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+}
+
+TABLE TH.detitle {
+background-color: #DD881B;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+}
+/*
+GEPC
+sE HABILITA LA PROPIEDAD "background-color: #E3E5ff;"
+*/
+TABLE TD.delabel {
+background-color: #FFE7A2;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+/*
+GEPC
+sE HABILITA LA PROPIEDAD "background-color: #E3E5ff;"
+*/
+TABLE TH.delabel {
+background-color: #FFE7A2;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.deseparator {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.dehighlight {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.dedead {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.dedefault {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.dewhite {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.deborder {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+border: 1px solid;
+
+}
+
+/* DATA DISPLAY TABLE HEADERS AND DATA CELLS                */
+/* Some font rules are redunant because they do not         */
+/* inherit well from the BODY on older browsers.            */
+/* ======================================================== */
+TABLE TD.ddheader {
+background-color: #FCB656;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TH.ddheader {
+background-color: #FCB656;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+/*
+GEPC
+Cambiar color "background-color: #E3E5EE;" por "background-color: #B1C9EF;"
+*/
+TABLE TD.ddtitle {
+background-color: #DD881B;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+}
+/*
+GEPC
+Cambiar color "background-color: #E3E5EE;" por "background-color: #B1C9EF;"
+*/
+TABLE TH.ddtitle {
+background-color: #DD881B;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+}
+
+TABLE TD.ddlabel {
+background-color: #FFE7A2;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TH.ddlabel {
+background-color: #FFE7A2;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+
+TABLE TD.ddseparator {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.ddhighlight {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.dddead {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.dddefault {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/*border-bottom: 1pt #BFBFBF solid; */
+}
+
+TABLE TD.ddnontabular {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.ddwhite {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+/* PLAIN TABLE HEADERS AND DATA CELLS                       */
+/* These table data cell classes pertain to a table that is */
+/* used strictly for layout. They do not have the redundant */
+/* font rules because it is assumed that whatever is placed */
+/* in these TD/TH tags will have its own class.             */
+/* ======================================================== */
+TABLE TD.pltitle {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-weight: bold;
+}
+
+TABLE TD.plheader {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-size: 90%;
+font-weight: bold;
+}
+
+TABLE TH.pllabel {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-size: 90%;
+font-weight: bold;
+}
+
+TABLE TD.plseparator {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+}
+
+TABLE TD.plhighlight {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+}
+
+TABLE TD.pldead {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+}
+
+TABLE TD.pldefault {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+}
+
+TABLE TD.plwhite {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+
+}
+TABLE TD.plheaderlinks {
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+
+}
+
+
+/*========================================================*/
+/*=======  Class for header links=========================*/
+/*========================================================*/
+
+TABLE TD.plheadermenulinks {
+font-weight: normal;
+/*background-color:#CED5EA;*/
+}
+
+
+
+
+/* MENU PLAIN TABLE HEADERS AND DATA CELLS                  */
+/* ======================================================== */
+TABLE TD.mptitle {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.mpheader {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TH.mplabel {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.mpwhite {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.mpdefault {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.indefault {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+}
+
+/* Define tables with border				    */
+/* ======================================================== */
+TABLE TD.dbheader {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+border: 1px solid;
+}
+
+TABLE TH.dbheader {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+border: 1px solid;
+}
+
+TABLE TD.dbtitle {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+border: 1px solid;
+}
+
+TABLE TH.dbtitle {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+border: 1px solid;
+}
+
+TABLE TD.dblabel {
+/*background-color: #E3E5EE;*/
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+border: 1px solid;
+}
+
+TABLE TH.dblabel {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+border: 1px solid;
+}
+TABLE TD.dbdefault {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+border: 1px solid;
+}
+
+
+
+
+/* NON TABULAR TABLE DATA DISPLAY  HEADERS AND DATA CELLS  */
+/* Some font rules are redunant because they do not         */
+/* inherit well from the BODY on older browsers.            */
+/* ======================================================== */
+TABLE TD.ntheader {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TH.ntheader {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.nttitle {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+}
+
+TABLE TH.nttitle {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+/* Make titles big and chunky. */
+padding-bottom: 1em;
+}
+
+TABLE TD.ntlabel {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TH.ntlabel {
+background-color: #E3E5EE;
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.ntseparator {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.nthighlight {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.ntdead {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.ntdefault {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+
+TABLE TD.ntwhite {
+color: black;
+font-family: Verdana,Arial Narrow,  helvetica, sans-serif;
+font-weight: normal;
+font-size: 90%;
+font-style: normal;
+text-align: left;
+vertical-align: top;
+}
+/*
+New Tab styles for Self Service
+*/
+/*
+GEPC
+Cambiar color "003366" por "DD881B"
+*/
+.bgtabon {
+	BACKGROUND-COLOR: #DD881B
+}
+/*
+GEPC
+Cambiar color "cccccc" por "dddddd"
+*/
+.bgtaboff {
+	BACKGROUND-COLOR: #dddddd
+}
+.texttabon {
+	COLOR: #ffffff
+}
+.texttaboff {
+	COLOR: #000000
+}
+/*
+GEPC
+Cambiar color "003366" por "7F4B02"
+*/
+.tabon {
+	PADDING-LEFT: 8px; 
+FONT-WEIGHT: bold; 
+FONT-SIZE: 12px; 
+BACKGROUND-IMAGE: url("../wtlgifs/web_tab_corner.gif"); 
+COLOR: #ffffff; 
+BACKGROUND-REPEAT: no-repeat; 
+BACKGROUND-COLOR: #DD881B
+}
+.tabon A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none;
+}
+.tabon A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none;
+}
+.tabon A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none;
+}
+.tabon A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline;
+}
+/*
+GEPC
+*/
+.tabon A:visited:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline;
+}
+/*
+/*
+GEPC
+Se cambia el color "BACKGROUND-COLOR: #cccccc" por "BACKGROUND-COLOR: #dddddd"
+*/
+.taboff {
+	PADDING-LEFT: 8px;
+      FONT-WEIGHT: normal;
+      FONT-SIZE: 12px;
+      BACKGROUND-IMAGE: url("../wtlgifs/web_tab_corner.gif");
+      COLOR: #000000;
+      BACKGROUND-REPEAT: no-repeat;
+      BACKGROUND-COLOR: #dddddd
+}
+.taboff A:link {
+	COLOR: #7F4B02; TEXT-DECORATION: none;
+}
+.taboff A:visited {
+	COLOR: #7F4B02; TEXT-DECORATION: none;
+}
+.taboff A:active {
+	COLOR: #7F4B02; TEXT-DECORATION: none;
+}
+.taboff A:hover {
+	COLOR: #7F4B02; TEXT-DECORATION: underline;
+}
+.taboff A:visited:hover {
+	COLOR: #7F4B02; TEXT-DECORATION: underline; 
+}
+/* 80100-1 */
+/*
+GEPC
+Cambiar color "BACKGROUND-COLOR: #cccccc" por "BACKGROUND-COLOR: #dddddd"
+*/
+.tabdisable {
+	PADDING-LEFT: 8px;
+      FONT-WEIGHT: bold;
+      FONT-SIZE: 12px;
+      BACKGROUND-IMAGE: url("../wtlgifs/web_tab_corner.gif");
+      COLOR: #F2F2F2;
+      BACKGROUND-REPEAT: no-repeat;
+      BACKGROUND-COLOR: #dddddd
+}
+.tabdisable A:link {
+	COLOR: #F2F2F2; TEXT-DECORATION: none;
+}
+.tabdisable A:visited {
+	COLOR: #F2F2F2; TEXT-DECORATION: none;
+}
+.tabdisable A:active {
+	COLOR: #F2F2F2; TEXT-DECORATION: none;
+}
+.tabdisable A:hover {
+	COLOR: #F2F2F2; TEXT-DECORATION: underline;
+}
+.tabdisable A:visited:hover {
+	COLOR: #F2F2F2; TEXT-DECORATION: underline; 
+}
+/*
+GEPC
+Se coloco la clase "bg3"
+Cambiar color "cccc00" por "FCB656"
+*/
+.bg3 {
+	BACKGROUND-COLOR: #FCB656
+}

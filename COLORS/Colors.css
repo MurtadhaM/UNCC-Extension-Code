@@ -1,0 +1,467 @@
+@-moz-document domain("selfservice.uncc.edu"), domain("selfservice.charlotte.edu") {
+*{
+	font-family: 'roboto', sans-serif !important;
+}
+
+
+/*
+TITLE
+
+*/
+.pagetitlediv{
+color: magenta  !important;
+	
+	
+	
+}
+/* HEADERS                                                  */
+/* ======================================================== */
+H1 {
+color: red;
+}
+
+H2 {
+color: lime  !important;
+	text-align: center !important;
+}
+
+H3 {
+color: blue !important;
+}
+
+H4 {
+color: magenta  !important;
+}
+
+H5 {
+color: orange  !important;
+}
+
+H6 {
+color: cyan !important;
+}
+
+
+
+/* BUTTON AND LINKS */
+
+
+
+
+A:link:after{
+
+	position: absolute;
+	opacity: 0;
+	
+	transition: all .9s ease;
+}
+
+A:link:hover:after{
+	transition: all 0.9s ease;}
+
+}
+
+@-moz-document domain("selfservice.uncc.edu"), domain("selfservice.charlotte.edu") {
+/*
+SUBMENUE TEXT
+*/
+
+.menulinkdesctext {
+	
+	
+color: 	#482673 !important;
+}
+/* ANCHORS (LINKS)                                          */
+/* ======================================================== */
+A:link {
+color: #ed0b70  !important;
+text-align: center;
+}
+
+A:visited {
+color: #ff8429  !important;
+text-decoration: underline;
+}
+
+A:active {
+color:  #482673  !important;
+}
+
+A:hover {
+color: #ed0b70 !important;
+font-size: 1.1m;
+text-decoration: underline;
+}
+
+/* DIVIDES                                                  */
+/* ======================================================== */
+DIV.MenuListDiv {
+background-color: #FFC6A5;
+text-align: left;
+}
+
+DIV.PageHeaderDiv {
+background-color: #FFE7C6;
+margin-top: 1%;
+text-align: left;
+}
+
+DIV.HeaderLinksDiv {
+background-color: #FFFFC6;
+margin-top: 1%;
+text-align: center;
+}
+
+DIV.FooterLinksDiv {
+background-color: #F7FFCE;
+text-align: center;
+}
+
+DIV.BackLinkDiv {
+background-color: #DEF3BD;
+text-align: left;
+}
+
+DIV.PageTitleDiv {
+background-color: #CEEFBD;
+margin-top: 1%;
+text-align: left;
+}
+
+DIV.InfoTextDiv {
+background-color: #bdc6de;
+text-align: left;
+}
+
+DIV.PageBodyDiv {
+background-color: #C6EFF7;
+text-align: left;
+border-top: medium #006699 solid;
+padding-top: 1em;
+}
+
+DIV.PageFooterDiv {
+background-color: #BDC6DE;
+text-align: left;
+}
+
+
+.CaptionText {
+border-bottom: 0px #000000 solid;
+border-left: 0px #000000 solid;
+border-right: 0px #000000 solid;
+border-top: 0px #000000 solid;
+color: #FF0000;
+font-family: verdana, helvetica, arial, sans-serif;
+font-size: 70%;
+text-align: left;
+}
+
+.PageHeaderText {
+width: 80%;
+color:  #FF8429;
+}
+
+.SkipLinks {
+display: none;
+}
+
+.PageHeaderLinks {
+color: #FFFF10;
+}
+
+.PageFooterLinks {
+color: #D6EF39;
+}
+
+.BackLinkText {
+color: #7BC618;
+}
+
+.PageTitleText {
+color: #299C39;
+}
+
+
+.InfoText {
+color: #089494;
+
+}
+
+.MenuHeaderText {
+color: #00A5C6;
+}
+
+.MenuLinkText {
+color: #083194;
+}
+
+.SubmenuLinkText {
+color: #ff8429 !important;
+}
+.SubmenuLinkText2 {
+color: #ff8429 !important;
+}
+
+
+
+
+.ErrorText {
+color: #8C007B;
+}
+
+.WarningText {
+color: #CE007B;
+}
+
+.InformationText {
+color: #006B84;
+}
+
+.MultiPageMsgText {
+color: #AD0000;
+}
+
+.ReleaseText {
+color: #AD4A18;
+}
+
+.RequiredMsgText {
+color: #AD9410;
+}
+
+.FieldLabelText {
+color: #8C9429;
+
+}
+
+.FieldLabelTextInvisible {
+}
+
+.FieldRequiredText {
+color: #527B10;
+}
+
+.FieldFormatText {
+color: #186321;
+}
+
+.FieldErrorText {
+color: #006363;
+}
+
+}
+
+@-moz-document domain("selfservice.uncc.edu"), domain("selfservice.charlotte.edu") {
+/* PLAIN TABLE HEADERS AND DATA CELLS                       */
+/* ======================================================== */
+TABLE TD.pltitle {
+background-color: #ffffff;
+}
+
+TABLE TD.plheader {
+background-color: #ffffff;
+}
+
+TABLE TH.pllabel {
+background-color: #ffffff;
+}
+
+TABLE TD.plseparator {
+background-color: #ffffff;
+}
+
+TABLE TD.plhighlight {
+background-color: #006aff;
+}
+
+TABLE TD.pldead {
+background-color: #ffffff;
+}
+
+TABLE TD.pldefault {
+background-color: #f00;
+}
+
+TABLE TD.plwhite {
+background-color: #f00;
+}
+
+
+
+}
+
+@-moz-document domain("selfservice.uncc.edu"), domain("selfservice.charlotte.edu") {
+/* TABLE HEADERS AND DATA CELLS                             */
+/* ======================================================== */
+
+/* DATA ENTRY TABLE HEADERS AND DATA CELLS                  */
+/* ======================================================== */
+TABLE TH.deheader {
+background-color: #000000;
+color: #FFC6A5;
+font-weight: bold;
+border-top: thin #cccccc solid;
+}
+
+TABLE TD.detitle {
+background-color: #000000;
+color: #FFE7C6;
+font-weight: bold;
+border-top: thin #cccccc solid;
+}
+
+TABLE TD.delabel {
+background-color: #000000;
+color: #FFFFC6;
+font-weight: bold;
+}
+
+TABLE TD.deseparator {
+background-color: #000000;
+color: #F7FFCE;
+border-bottom: thin #efefef solid;
+}
+
+TABLE TD.dehighlight {
+background-color: #000000;
+color: #DEF3BD;
+border-bottom: thin #efefef solid;
+}
+
+TABLE TD.dedead {
+background-color: #000000;
+color: #CEEFBD;
+}
+
+TABLE TD.dedefault {
+background-color: #000000;
+color: #C6E7DE;
+}
+
+TABLE TD.dewhite {
+background-color: #000000;
+color: #C6EFF7;
+border-bottom: thin #efefef solid;
+}
+
+}
+
+@-moz-document domain("selfservice.uncc.edu"), domain("selfservice.charlotte.edu") {
+/* TABLE HEADERS AND DATA CELLS                             */
+/* ======================================================== */
+
+/* DATA ENTRY TABLE HEADERS AND DATA CELLS                  */
+/* ======================================================== */
+TABLE TH.deheader {
+background-color: #000000;
+color: #FFC6A5;
+font-weight: bold;
+border-top: thin #cccccc solid;
+}
+
+TABLE TD.detitle {
+background-color: #000000;
+color: #FFE7C6;
+font-weight: bold;
+border-top: thin #cccccc solid;
+}
+
+TABLE TD.delabel {
+background-color: #000000;
+color: #FFFFC6;
+font-weight: bold;
+}
+
+TABLE TD.deseparator {
+background-color: #000000;
+color: #F7FFCE;
+border-bottom: thin #efefef solid;
+}
+
+TABLE TD.dehighlight {
+background-color: #000000;
+color: #DEF3BD;
+border-bottom: thin #efefef solid;
+}
+
+TABLE TD.dedead {
+background-color: #000000;
+color: #CEEFBD;
+}
+
+TABLE TD.dedefault {
+background-color: #000000;
+color: #C6E7DE;
+}
+
+TABLE TD.dewhite {
+background-color: #000000;
+color: #C6EFF7;
+border-bottom: thin #efefef solid;
+}
+
+}
+
+@-moz-document url-prefix("http://example.com") {
+/* TABLES                                                   */
+/* ======================================================== */
+TABLE.DataEntryTable {
+background-color: #ffffff;
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+text-align: left;
+margin-top: 1em;
+}
+
+TABLE.DataDisplayTable {
+background-color: #ffffff;
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+text-align: left;
+margin-top: 1em;
+}
+
+TABLE.PlainTable {
+background-color: #ffffff;
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+text-align: left;
+}
+
+TABLE.MenuPlainTable {
+background-color: #ffffff;
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+text-align: left;
+}
+
+TABLE.PageHeaderTable {
+background-color: #ffffff;
+border-bottom: 2px solid;
+border-left: 2px solid;
+border-right: 2px solid;
+border-top: 2px solid;
+table-layout: fixed;
+}
+
+TABLE.InfoTextTable {
+background-color: #ffffff;
+border-bottom: 0px solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-top: 0px solid;
+}
+
+TABLE.ColorSampleTable {
+background-color: #ffffff;
+}
+}
